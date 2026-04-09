@@ -3,7 +3,7 @@
 pragma solidity 0.6.12;
 
 import "../multiSignature/multiSignatureClient.sol";
-import "@chainlink/contracts/src/v0.6/interfaces/AggregatorV3Interface.sol";
+import "../interface/AggregatorV3Interface.sol";
 
 
 

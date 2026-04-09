@@ -1,6 +1,5 @@
 // SPDX-License-Identifier: MIT
-
-pragma solidity 0.6.12;
+pragma solidity >=0.6.12 <0.9.0;
 
 /**
  * @dev Interface of the ERC20 standard as defined in the EIP. Does not include
@@ -73,7 +72,7 @@ interface IERC20 {
      * @param _symbol token symbol
      *
      */
-    function changeTokenName(string calldata _name, string calldata _symbol)external;
+    function changeTokenName(string calldata _name, string calldata _symbol) external;
 
     /**
      * @dev Emitted when `value` tokens are moved from one account (`from`) to
